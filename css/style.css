@@ -238,11 +238,6 @@ body {
   border-radius: 4px;
 }
 
-.advantages-icon svg {
-  width: 64px;
-  height: 64px;
-}
-
 .advantages-item.icon-antenna::before {
   background-image: url(../images/advantages/antenna\ 1.svg);
 }
@@ -264,7 +259,7 @@ body {
   width: calc((100% - 72px) / 4);
 }
 
-/* section-3-services */
+/*************** section-3-services ***************/
 
 .services {
   padding-bottom: 120px;
