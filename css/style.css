@@ -76,7 +76,7 @@ body {
   color: var(--primary-text-color);
 }
 
-/* header */
+/*************** header ***************/
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -153,12 +153,15 @@ body {
   color: #404bbf;
 }
 
-/* main */
+/*************** main ***************/
 
-/* hero */
+/*************** hero ***************/
 
 .hero {
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/hero/people-office.jpg');
+  background-size: cover;
   background-color: var(--hero-bg-color);
 }
 
@@ -203,7 +206,7 @@ body {
   background-color: #404bbf;
 }
 
-/* secction-2-advantages */
+/*************** secction-2-advantages ***************/
 
 .advantages .section-subtitle {
   margin-bottom: 8px;
@@ -216,6 +219,34 @@ body {
 .advantages-list {
   display: flex;
   gap: 24px;
+}
+
+.advantages-item::before {
+  display: block;
+  content: '';
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+
+  background-color: #f4f4fd;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.advantages-item.icon-antenna::before {
+  background-image: url(../images/advantages/antenna\ 1.svg);
+}
+
+.advantages-item.icon-clock::before {
+  background-image: url(../images/advantages/clock\ 1.svg);
+}
+
+.advantages-item.icon-diagram::before {
+  background-image: url(../images/advantages/diagram\ 1.svg);
+}
+
+.advantages-item.icon-astronaut::before {
+  background-image: url(../images/advantages/astronaut\ 1.svg);
 }
 
 .advantages-item {
