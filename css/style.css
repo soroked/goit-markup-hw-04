@@ -162,13 +162,14 @@ body {
 .hero {
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
 
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('../images/hero/people-office.jpg');
-  background-size: cover;
   background-color: var(--hero-bg-color);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -355,6 +356,51 @@ body {
 .customers {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.customers-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+
+  color: #2e2f42;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+.customer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+
+  color: #8e8f99;
+}
+
+.customer-link:hover,
+.customer-link:focus {
+  border-color: #404bbf;
+  color: #404bbf;
+}
+
+.customer-icon {
+  fill: currentColor;
 }
 
 /* footer */
