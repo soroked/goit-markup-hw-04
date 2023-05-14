@@ -278,12 +278,15 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
-/* section-4-about-us */
+/*************** section-4-about-us ***************/
 
 .our-team {
-  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+
+  background-color: #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .our-team .section-title {
@@ -312,6 +315,42 @@ body {
 .our-team .list {
   display: flex;
   gap: 24px;
+}
+
+.social-links {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.social-links .list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.social-links-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+}
+
+.social-icon {
+  fill: #f4f4fd;
 }
 
 /* footer */
