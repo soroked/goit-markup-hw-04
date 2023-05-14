@@ -227,16 +227,20 @@ body {
   gap: 24px;
 }
 
-.advantages-item::before {
-  display: block;
-  content: '';
-  width: 264px;
+.advantages-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
   margin-bottom: 8px;
 
   background-color: #f4f4fd;
-  background-repeat: no-repeat;
-  background-position: center;
+  border-radius: 4px;
+}
+
+.advantages-icon svg {
+  width: 64px;
+  height: 64px;
 }
 
 .advantages-item.icon-antenna::before {
