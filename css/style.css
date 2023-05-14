@@ -350,6 +350,13 @@ body {
   fill: #f4f4fd;
 }
 
+/*************** section-5-customers ***************/
+
+.customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* footer */
 
 .footer {
