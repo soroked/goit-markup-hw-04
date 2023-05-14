@@ -81,6 +81,8 @@ body {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header .container {
@@ -159,10 +161,14 @@ body {
 
 .hero {
   padding: 188px 0;
+  max-width: 1440px;
+
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url('../images/hero/people-office.jpg');
   background-size: cover;
   background-color: var(--hero-bg-color);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
